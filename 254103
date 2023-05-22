@@ -1,0 +1,88 @@
+<html>
+    <head>ANIMAL SURVEY FORM
+        <link rel="stylesheet" href="styles.css">
+      </head>
+<h1>How can we  improve the lives of animals</h1>
+<h2>  About </h2>
+<p>Animals are an integral part in our ecosystem. <br>
+They balance our ecosystem because each animal has their <br> 
+function.It is our responsibility as humans to <br>
+take care of them.</p>
+<h3>Kindly fill the form below</h3>
+<form id="form">
+     <label>
+        Name
+    </label>
+        <input type="text" required="" id="Name"/> <br>
+     <label>
+        Email
+    </label>
+    <input type="text" required="" id="Email"/><br>
+     </label>
+            Age
+          </label>
+          <input type="text" required="" id="Age"
+         min="10" max="120"/> <br>
+         <label>
+            Do you have an animal at home? <br>
+         </label>
+         <select > 
+            <option> yes </option>
+            <option> no </option>
+         </select><br>
+         <label>
+            If so,do you they have regulr vet visits
+         </label>
+         <label>
+            <input type="checkbox"><br>
+         </label>
+         <label>
+           If you checked the box above,<br>
+            Which veterinary clinic do you visit?
+         </label>
+         <label>
+            <input type="text">
+        </label><br>
+        <label>
+            Have you ever encounterd an animal abuse issue <br>
+            in your neighbourhood?
+        </label>
+        <label>
+            <select>
+                <option> yes </option>
+                <option>no</option>
+            </select> 
+        </label><br>
+        <label>
+            Did you report the issue to the relevant authorities?
+        </label>
+        <label>
+            <select >
+                <option >yes</option>
+                <option>no</option>
+            </select>
+        </label><br>
+        <label >
+            Do you think there are enough an deternt laws to prevent animal abuse?
+        </label>
+        <label>
+            <select >
+               <option >yes</option>
+               <option  T>no</option>
+               <option >not sure</option>
+        </select>
+        </label><br>
+        <Label>
+            What can be done to prevent animals from being abused?
+        </Label>
+        <label >
+            <input type= "text">
+        </label><br>
+<label >
+    <button>
+        Submitt
+    </button>
+</label>
+</form>
+</html>
+

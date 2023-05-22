@@ -1,0 +1,12 @@
+h1{
+    background-color:rgba(25, 158, 39, 0.398);
+    color: white;
+}
+h2{
+    color:brown ;
+}
+h3{color: blueviolet;
+}
+body{
+    background-color: goldenrod;
+}
